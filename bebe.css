@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("photo-1693648793394-0b76b7eb042e.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+table{
+    border: solid 1px rgb(100, 16, 16);   
+    height: 100vh;
+    width: 100%;
+    
+}
+
+
+.borda:hover{
+    transform: scale(1.4);
+    z-index: 10;
+    box-shadow: 0 0 15px;
+}
+
+.borda{ border: solid;
+    text-align: center;
+    border-width: 3px;
+    border-radius: 7px;
+}
+td{
+    
+    width: 5%;
+    height: 7vh;
+    transition: 0.2s;
+    
+}
+
+.naometais{
+    background-color: #000000;
+    color:  #37ff14a6;
+    border-color: #39ff14;
+}
+
+.gasesnobres{
+    background-color: #000000;
+    color:rgba(0, 141, 31, 0.801);
+    border-color:rgb(4, 80, 21);
+}
+
+
+.metaistransicao{
+    background-color: #000000;
+    color: rgba(60, 69, 150, 0.733);
+    border-color:rgb(48, 62, 194);
+}
+.metaisalcalinos{
+    background-color: #000000;
+    color: rgba(165, 49, 51, 0.774);
+    border-color: rgb(165, 49, 50);
+}
+
+.metaisalcalinosterroros{
+    background-color: #000000;
+    color: rgba(207, 133, 15, 0.733);
+    border-color:rgb(207, 133, 15);
+}
+
+.outrosmetais{
+    background-color: #000000;
+    color: rgba(127, 117, 138, 0.781);
+    border-color: rgb(159, 150, 168);
+}
+
+.semimetais{
+    background-color: #000000;
+    color:#20d2d8cb;
+    border-color: #20d2d8;
+}
+
+.halogenios{
+    background-color: #000000;
+    color:rgba(148, 88, 20, 0.76);
+    border-color: rgb(148, 88, 20);
+}
+
+.latanideos{
+    background-color: #000000;
+    color: rgba(170, 63, 117, 0.753);
+    border-color: rgb(197, 58, 127);
+}
+.actinidios{
+    background-color: #000000;
+    color: rgba(196, 79, 211, 0.699);
+    border-color: rgb(154, 59, 167);
+}
+
+
+
+
+div {
+    text-align: left;
+}
+
+.legenda { width: 30%;
+height: 30%;
+background-color:#39ff14;
+margin-left: 60%;}
+
+.lmetaisalcalinos{
+    background-color: rgb(165, 49, 50)
+}
+
+.lsemimetais{
+    background-color: #20d2d8;
+}
+
+.loutrosmetais{
+    background-color:  rgb(159, 150, 168);
+}
+
+.llatanideos{
+    background-color: rgb(197, 58, 127);
+}
+
+.lgasesnobres{
+    background-color: rgba(16, 92, 33, 0.801);
+}
+
+.lmetaisalcalinosterroros{
+    background-color:  rgba(238, 153, 16, 0.733);
+}
+
+.lhalogenios{
+    background-color: rgba(128, 77, 19, 0.76);
+}
+
+.lmetaistransicao{
+    background-color: rgba(60, 69, 150, 0.733);
+}
+
+.lactinídeos{
+    background-color: rgba(170, 63, 117, 0.753);
+}
+
+
+#legenda { color: white;}
